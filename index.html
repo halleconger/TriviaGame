@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivia Game</title>
+    <!-- LINK BOOTSTRAP -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Short+Stack" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="jumbotron">
+                    <h1> Ice Cream Trivia Game </h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+            </div>
+            <div class="col-md-4">
+                <button type=button id="click-to-start" class="btn btn-success btn-lg">Click To Start</button>
+            </div>
+            <div class="col-md-4">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+            </div>
+            <div class="col-md-4">
+                <div id="timer"></div>
+            </div>
+            <div class="col-md-4">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div id="gameArea">
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <div id="results">
+                    <p> Correct Answer:
+                        <span id="correctAnswer"></span>
+                    </p>
+                    <p> Incorrect Answer:
+                        <span id="incorrectAnswer"></span>
+                    </p>
+                    <p> Unanswered:
+                        <span id="incompleteAnswer"></span>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+            </div>
+            <div class="col-md-4">
+                <button type=button id="click-to-submit" class="btn btn-success btn-lg">Submit Answers</button>
+            </div>
+            <div class="col-md-4">
+            </div>
+        </div>
+
+    </div>
+
+    <!-- LINK JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <!-- LINK SCRIPT -->
+    <script type="text/javascript" src="./assets/javascript/app.js"></script>
+</body>
+
+</html>
