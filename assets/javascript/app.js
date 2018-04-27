@@ -121,18 +121,6 @@ $(document).ready(function () {
     }
 
     startTimer();
-    
-    
-    
-    // function countdown () {
-    //     timeCount--;
-    // }
-    
-    // function timeDecrement() {
-    //     setInterval(countdown, 1000);
-    // }
-    // timeDecrement();
-    // console.log(timeDecrement);
 
     // CREATE A FUNCTION THAT DISPLAYS 
     // THE QUESTIONS AND THEIR CHOICE LIST
